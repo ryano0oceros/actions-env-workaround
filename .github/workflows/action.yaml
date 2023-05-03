@@ -17,7 +17,6 @@ jobs:
         if: true
         with:
           labels: |
-            ryan
             bug
 
   build-zero:
