@@ -14,10 +14,9 @@ jobs:
 
       - name: add labels
         uses: actions-ecosystem/action-add-labels@v1
-        if: ${{ startsWith(github.event.comment.body, '/add-labels') }}
+        if: true
         with:
           labels: |
-            ryan
             bug
 
   build-zero:
