@@ -16,6 +16,7 @@ jobs:
         uses: actions-ecosystem/action-add-labels@v1
         with:
           labels: bug
+          number: 12
 
   build-zero:
     if: ${{ github.event.label.name == 'bug' }}
