@@ -28,7 +28,7 @@ jobs:
   build:
     if: ${{ github.event.label.name != 'bug' }}
     runs-on: ubuntu-latest
-        steps:
+      steps:
       - name: show OS
         run: echo "ubuntu"
 
