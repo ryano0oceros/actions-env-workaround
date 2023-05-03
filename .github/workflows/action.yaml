@@ -14,7 +14,6 @@ jobs:
 
       - name: add label
         uses: actions-ecosystem/action-add-labels@v1
-        if: true
         with:
           labels: bug
 
